@@ -23,11 +23,11 @@
                         De:
                         <small>
                             <del>
-                                {{ produto.valor | currency:'BRL':symbol:'1.2-2':'pt' }}
+                                {{ produto.valor | currency:'BRL':tru:'1.2-2':'pt' }}
                             </del>
                         </small>
                         Por: 
-                        {{ produto.valorPromo | currency:'BRL':symbol:'1.2-2':'pt' }}
+                        {{ produto.valorPromo | currency:'BRL':true:'1.2-2':'pt' }}
                     </h4>
                 </div>
 
@@ -37,7 +37,7 @@
                 
                 <div>
                     <h4>
-                        {{ produto.valor| currency:'BRL':symbol:'1.2-2':'pt' }}
+                        {{ produto.valor| currency:'BRL':true:'1.2-2':'pt' }}
                     </h4>
                 </div>
 
